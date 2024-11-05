@@ -1,0 +1,42 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Tiny5&display=swap');
+</style>
+*{
+margin: 0;
+padding: 0;
+}
+
+:root{
+   --fonte-titulo:;"Comic Neue", static;
+   --fonte-texto:;"Tiny5", static;
+--Cor1:#10002bff;
+--Cor2:#240046ff;
+--Cor3:#3c096cff;
+--Cor3:#5a189aff;
+--Cor4:#7b2cbfff;
+--Cor5:#9d4eddff;
+--Cor6:#c77dffff;
+--Cor7:#e0aaffff;
+}
+body{
+    background-color:aliceblue
+    font-family:"comic neue", cursive;
+}
+header{
+    background-color:blueviolet
+    padding: 2em;
+    color: var(--cor3);
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 1,5em;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    widith: 100%;
+}
+
+footer a{
+  text-decoration: none;
+  color:darkviolet;
+}
